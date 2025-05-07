@@ -9,10 +9,14 @@ def suma_numeros():
     if n1 %2==0: 
          if n1>0: 
           if n2 %2==0:
-            if n3 %2==0:
-                 if n4 %2==0:
-                    if n5 %2==0:   
-                     print(n1+n2+n3+n4+n5)
+            if n2>0:
+             if n3 %2==0:
+                 if n3>0:
+                  if n4 %2==0:
+                    if n4>0:
+                     if n5 %2==0:
+                        if n5>0:   
+                         print(n1+n2+n3+n4+n5)
     
 suma_numeros()
 
@@ -31,22 +35,13 @@ def clasificacion_edad():
         #creamos condicionales para asignar un titulo a tal edad
     elif n<0:
         #verificamos si el numero es negativo
-        print("error (todavia no naces)")
+        print("error")
         #si es negativo da error
-clasificacion_edad
+clasificacion_edad()
 
 def contador_vocales():
     palabra=input("ingrese una palabra (sin espacios): ")
 
-def prueba():
-    n=int(input("numero: "))
-
-    if n %2==0:
-        if n>0:
-         print("hola")
-
-    else: print("oda")
-prueba
     
     
 
